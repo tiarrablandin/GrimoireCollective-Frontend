@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[64381,["/_next/static/chunks/7cc6c96d6888df2d.js"],"ViewportBoundary"]
+3:I[64381,["/_next/static/chunks/7cc6c96d6888df2d.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"1wCs_i6zLU59zQIK8vFEm","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Grimoire Collective"}],["$","meta","1",{"name":"description","content":"A mystical collection of knowledge and wisdom"}]]}]}]}],null]}],"loading":null,"isPartial":false}
