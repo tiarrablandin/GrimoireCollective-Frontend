@@ -30,11 +30,48 @@ frontend/
 │   ├── hooks/                 # Custom React hooks
 │   ├── types/                 # TypeScript types
 │   └── utils/                 # Helper functions
+├── docs/                      # 📚 All documentation goes here
+│   └── README.md              # Documentation index
 ├── public/                    # Static assets
 ├── tailwind.config.ts
 ├── tsconfig.json
-└── package.json
+├── package.json
+├── README.md                  # Main entry point
+└── DEVELOPMENT_GUIDELINES.md  # This file
 ```
+
+### Documentation Standards
+
+**All documentation must be placed in the `docs/` directory.**
+
+- **Component documentation**: Place in `docs/` (e.g., COMPONENT_LIBRARY.md)
+- **Architecture docs**: Place in `docs/` (e.g., ARCHITECTURE.md)
+- **Setup guides**: Place in `docs/` (e.g., SETUP.md)
+- **Styling guides**: Place in `docs/` (e.g., STYLING.md)
+
+**Root-level files** should only include:
+- `README.md` - Main entry point and quick start
+- `DEVELOPMENT_GUIDELINES.md` - This file
+- Configuration files (`package.json`, `next.config.js`, `tailwind.config.ts`, etc.)
+- Essential build/run files
+
+**Creating new documentation:**
+1. Place the file in `docs/`
+2. Add an entry to `docs/README.md` index
+3. Link from main `README.md` if appropriate
+4. Use consistent markdown formatting
+5. Include code examples and component demos
+
+## Core Principles
+
+### DRY (Don't Repeat Yourself)
+- Extract reusable UI logic into custom React hooks
+- Create shared components for repeated UI patterns
+- Use utility functions for common operations
+- Leverage TypeScript interfaces and types for shared data structures
+- Extract constants and configuration into dedicated files
+- Use composition and component composition patterns to avoid duplication
+- If you find yourself copying component code, refactor it into a shared component
 
 ## Coding Standards
 
